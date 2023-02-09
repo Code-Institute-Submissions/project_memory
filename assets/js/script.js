@@ -106,11 +106,14 @@ startButton.addEventListener("click", () => {
   controls.classList.add("hide");
   stopButton.classList.remove("hide");
   startButton.classList.add("hide");
+
   //Start timer
+  
   interval = setInterval(timeGenerator, 1000);
   //initial moves
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   initializer();
+  
 });
 
 //Stop game
