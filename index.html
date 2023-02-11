@@ -15,22 +15,31 @@
     
     
     <title>Memory Game</title>
-
-<body>
- 
-  <body>
-    <div class="wrapper">
-      <div class="stats-container">
-        <div id="moves-count"></div>
-        <div id="time"></div>
-      </div>
-      <div class="game-container"></div>
-      <button id="stop" class="hide">Stop Game</button>
-    </div>
-    <div class="controls-container">
-      <p id="result"></p>
-      <button id="start">Start Game</button>
-    </div>
+    <body>
+        <div class="wrapper">
+            <div class="stats-container">
+                <div id="number_of_moves"></div>
+                <div id="gameTime"></div>
+                <button id="stop" class="hide"> Stop Game </button>
+            </div>
+            <div class="game-container"></div>
+        </div>
+        <div class="controls-container">
+            <h1 id="result">Memory Game</h1>
+            <br>
+            <button onclick="gameInstruction()">Game Instruction</button>
+            <div id="instruction">
+                <h2>Game Instruction:</h2>
+                <br>
+                <p>Test your memory with this memory game! You start 
+                    the game by choosing a card and finding another identical one. 
+                    You need to find all pairs. When you find all pairs, you have 
+                    completed this game.
+                </p>
+            </div>
+            <button id="start"> Play Game <i class="fa-solid fa-play"></i></button>
+        </div>
+    </body>
 
 
 
