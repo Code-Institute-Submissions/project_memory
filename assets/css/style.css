@@ -53,3 +53,16 @@ img {
     border-radius: 0.6em;
     box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
 }
+.game-container {
+    position: relative;
+    width: 100%;
+    display: grid;
+    gap: 0.6em;
+}
+.stats-container {
+    text-align: right;
+    margin-bottom: 1.2em;
+}
+.stats-container span {
+    font-weight: 600;
+}
