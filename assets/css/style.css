@@ -66,3 +66,10 @@ img {
 .stats-container span {
     font-weight: 600;
 }
+.card-container {
+    position: relative;
+    width: 9.25em;
+    height: 8.25em;
+    cursor: pointer;
+    background-color: transparent;
+}
