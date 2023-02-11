@@ -26,3 +26,14 @@ img {
     width: 100px;
     height: 100px;
 }
+#instruction {
+    border: solid 5px green;
+    width: 37em;
+    padding: 82px 43px;
+    text-align: center;
+    background-color: rgba(184, 140, 187, 0.588);
+    margin-top: 20px;
+    height: 22em;
+    border-radius: 7em;
+    display: none;
+}
