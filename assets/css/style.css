@@ -86,3 +86,22 @@ img {
     transition: transform 0.7s ease-out;
     backface-visibility: hidden;
 }
+.card-before {
+    background-image: url(https://img.freepik.com/free-vector/gradient-grainy-gradient-background_23-2149881119.jpg?w=1060&t=st=1676011688~exp=1676012288~hmac=bde22dc02c0af393925137d682ea95fe960c7975887eeb28931cadba88e8a34c);
+}
+.card-after {
+    background-color: #ffff;
+    transform: rotateY(180deg);
+}
+.card-container.flipped .card-before {
+    transform: rotateY(180deg);
+}
+.card-container.flipped .card-after {
+    transform: rotateY(0deg);
+}
+.card-container.matched.shake .card-after {
+    animation: shake 0.35s easy-in-out;
+}
+.card-container.matched.shake .card-before {
+    animation: shake 0.35s easy-in-out;
+}
