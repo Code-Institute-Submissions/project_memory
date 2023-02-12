@@ -30,7 +30,27 @@ function generateRandom()
 function matrixGenerator()
 
 function startButton() 
+startButton.addEventListener("click", () => {
+    movesCount = 0;
+    seconds = 0;
+    minutes = 0;
+    controls.classList.add("hide");
+    stopButton.classList.remove("hide");
+    startButton.classList.add("hide");
+    interval = setInterval(timeGenerator, 1000);
+    moves.innerHTML = `<span>Moves: </span> ${movesCount}`;
+    initializer();
+});
 
 function stopButton() 
+stopButton.addEventListener(
+    "click",
+    (stopGame = () => {
+        controls.classList.remove("hide");
+        stopButton.classList.add("hide");
+        startButton.classList.remove("hide");
+        clearInterval(interval);
+    })
+);
 
 function initializer() 
