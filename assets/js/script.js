@@ -1,15 +1,15 @@
 const moves = document.getElementById("number_of_moves");
 const timeValue = document.getElementById("gameTime");
 const startButton = document.getElementById("start");
+const stopButton = document.getElementById("stop");
+const gameContainer = document.querySelector(".game-container");
+const result = document.getElementById("result");
+const controls = document.querySelector(".controls-container");
 
-function gameInstruction() {
-    var x = document.getElementById("instruction");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-  }
+let cards;
+let interval;
+let firstCard = false;
+let secondCard = false;
 
   const items = [
     { name: "be_happy", image: "assets/images/be_happy.jpg" },
@@ -26,6 +26,15 @@ function gameInstruction() {
   let numberOfMoves = 0,
     winCount = 0;
 
+function gameInstruction() {
+    var x = document.getElementById("instruction");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+    }
+    
 
 function timeGenerator() {
     seconds += 1;
