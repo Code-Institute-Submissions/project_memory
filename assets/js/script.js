@@ -27,7 +27,21 @@ function gameInstruction() {
     winCount = 0;
 
 
-function timeGenerator() 
+function timeGenerator() {
+    seconds += 1;
+    if (seconds >= 60) {
+        minutes += 1;
+        seconds = 0;
+    }
+    let secondsValue = seconds < 10 ? `0${seconds}` : seconds;
+    let minutesValue = minutes < 10 ? `0${minutes}` : minutes;
+    timeValue.innerHTML = `<span>Time: </span>${minutesValue}:${secondsValue}`;
+};
+
+function numberMoves() {
+    numberOfMoves +=1;
+    moves.innerHTML = `<span>Moves: </span>${numberOfMoves}`;
+};
 
 function generateRandom() 
 
