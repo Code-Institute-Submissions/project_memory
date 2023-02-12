@@ -43,7 +43,17 @@ function numberMoves() {
     moves.innerHTML = `<span>Moves: </span>${numberOfMoves}`;
 };
 
-function generateRandom() 
+function generateRandom(size=4) {
+    let tempArray = [...items];
+    let cardValues = [];
+    size = (size * size) / 2;
+    for (let i = 0; i < size; i++) {
+        const randomIndex = Math.floor(Math.random() * tempArray.length);
+        cardValues.push(tempArray[randomIndex]);
+        tempArray.splice(randomIndex, 1);
+    }
+    return cardValues;
+};
 
 function matrixGenerator()
 
