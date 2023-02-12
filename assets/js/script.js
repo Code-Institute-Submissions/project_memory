@@ -21,6 +21,10 @@ function gameInstruction() {
     { name: "piggypig", image: "assets/images/piggypig.jpg" },
     { name: "beauty", image: "assets/images/beauty.jpg" },
   ]
+  let seconds = 0,
+    minutes = 0;
+  let numberOfMoves = 0,
+    winCount = 0;
 
 
 function timeGenerator() 
