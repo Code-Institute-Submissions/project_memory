@@ -69,9 +69,46 @@ function matrixGenerator(cardValues, size=4) {
         </div>
         `;
     }
-}
 
-function startButton() 
+    gameContainer.style.gridTemplateColumns = `repeat(${size},auto)`;
+
+    cards = document.querySelectorAll(".card-container");
+    cards.forEach((card) => {
+        card.addEventListener("click", () => {
+            if (!card.classList.contains("matched")) {
+                card.classList.add("flipped", "shake");
+                if (!firstCard) {
+                    firstCard = card;
+                    firstCardValue = card.getAttribiute("data-card-value");
+                } else {
+                    numberMoves();
+                    secondCard = card;
+                    let secondCardValue = card.getAttribiute("data-card-value");
+                    if (firstCardValue == secondCardValue) {
+                        firstCard.classList.add("matched");
+                        secondCard.classList.add("matched");
+                        firstCard = false;
+                        winCount += 1;
+                        if (winCount == Math.floor(cardValues.length / 2)) {
+                            result.innerHTML = `<p>Well Done!!</p>
+                            <p>Your moves: ${numberOfMoves}</p>`;
+                            stopGame();
+                        }
+                    } else {
+                      let [tempFirst, tempSecond] = [firstCard, secondCard];
+                      firstCard = false;
+                      secondCard = false;
+                      let delay = setTimeout(() => {
+                        tempFirst.classList.remove("flipped", "shake");
+                        tempSecond.classList.remove("flipped", "shake");
+                      }, 900);
+                    }
+                 }
+                }  
+        });
+    });
+};
+
 startButton.addEventListener("click", () => {
     movesCount = 0;
     seconds = 0;
@@ -95,4 +132,10 @@ stopButton.addEventListener(
     })
 );
 
-function initializer() 
+function initializer() {
+    result.innerHTML = "";
+    winCount = 0;
+    let cardValues = generateRandom();
+    console.log(cardValues);
+    matrixGenerator(cardValues);
+};
