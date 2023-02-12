@@ -55,7 +55,21 @@ function generateRandom(size=4) {
     return cardValues;
 };
 
-function matrixGenerator()
+function matrixGenerator(cardValues, size=4) {
+    gameContainer.innerHTML = "";
+    cardValues = [...cardValues, ...cardValues];
+    cardValues.sort(() => Math.random() - 0.5);
+    for (let i = 0; i < size * size; i++) {
+        
+        gameContainer.innerHTML +=`
+        <div class="card-container" data-card-value="${cardValues[i].name}">
+            <div class="card-before"></div>
+            <div class="card-after">
+            <img src="${cardValues[i].image}" class="image"/></div>
+        </div>
+        `;
+    }
+}
 
 function startButton() 
 startButton.addEventListener("click", () => {
