@@ -35,8 +35,8 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
 ## Colour Scheme
 
-![colors_home_page](assets/images/colors_home_page.png)
-![colors_message_page](assets/images/colors_message_page.png)
+![colors_home_page](assets/images/colors_home_psge.png)
+![colors_message_page](assets/images/colors_massage_page.png)
 
 # Technologies Used
 ## Languages Used
