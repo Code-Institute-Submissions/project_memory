@@ -247,3 +247,20 @@ img {
       margin-left: -1em;
     }
   }
+  @media (min-width: 1024px) {
+    body {
+      margin: 0px;
+    }
+    button {
+      margin-left: 31em;
+    }
+    .card-container {
+      width: 8.25em;
+      height: 6.25em;
+    }
+    .wrapper {
+      width: 34.87em;
+      height: 41em;
+      padding: 0.5em 3em;
+    }
+  }
