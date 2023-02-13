@@ -169,3 +169,20 @@ img {
     font-size: 1.8em;
     margin: 0.6em 0 1em 0;
   }
+  @media (max-width: 280px) {
+    body {
+      margin: 31px;
+    }
+    .game-container {
+      margin-left: 36px;
+    }
+    #stop {
+      float: none;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    button {
+      margin-left: 0em;
+    }
+  }
