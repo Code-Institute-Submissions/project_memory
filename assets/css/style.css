@@ -215,3 +215,35 @@ img {
       margin-left: -1em;
     }
   }
+  @media (max-width: 950px) {
+    body {
+      margin: 7px;
+      background-size: none;
+    }
+    h1 {
+      font-size: 5em;
+    }
+    .card-container {
+      width: 4.25em;
+      height: 4.25em;
+      margin: 4px;
+    }
+    button {
+      padding: 1em 1.5em;
+    }
+    .wrapper {
+      width: 21.87em;
+      height: 26em;
+    }
+    .controls-container {
+      border-radius: 20px;
+      margin: 119px;
+      width: 27.87em;
+      height: 35em;
+      background-image: url(https://img.freepik.com/free-vector/gradient-purple-hexagonal-background_23-2148965956.jpg?w=1060&t=st=1676278376~exp=1676278976~hmac=1063039a90e64064622fd7d18c8286b1f950d7130b9e3df78651bcc39ee337e9);
+    }
+    button {
+      margin: 28px;
+      margin-left: -1em;
+    }
+  }
