@@ -22,19 +22,30 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 ## The Memory Game Logo:
 
 
-- When we open the page the first thing we see is the Memory Games logo as well as options to start the game or read the game 
-  instructions:
+- When the user open the page the first thing the user can see is the Memory Games logo as well as options to start the game or read the game instructions:
 
 
 ![home_page](assets/images/homepage1.png)
 ![home_page2](assets/images/homepage2.png)
 
 - The Game Area:
+    - By pressing on "Play Game" the user will continue to the other side with the game area. 
+    - The Timer starts and moves are counted each time the user selects two cards.
+    - The user can choose any cards and match them together:
+
+         ![game_area](assets/images/game_area.png)    
 
 
-
-
+         
+    - This is what all pairs of cards look like:
 ![game_page](assets/images/game_page.png)
+
+
+
+
+
+
+
 ![game_over](assets/images/Game_over.png)
 
 # Design
