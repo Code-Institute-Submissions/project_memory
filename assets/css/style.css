@@ -27,15 +27,17 @@ img {
     height: 100px;
 }
 #instruction {
-    border: solid 5px green;
-    width: 37em;
-    padding: 82px 43px;
-    text-align: center;
-    background-color: rgba(184, 140, 187, 0.588);
-    margin-top: 20px;
-    height: 22em;
-    border-radius: 7em;
-    display: none;
+  
+  border: solid 1px #2f180c;
+  width: 37em;
+  padding: 82px 43px;
+  text-align: center;
+  background-color: rgb(212 212 232 / 59%);
+  margin-top: 20px;
+  height: 22em;
+  border-radius: 7em;
+  display: none;
+  
 }
 .game_instruction {
     float: left;
@@ -188,7 +190,7 @@ img {
   }
   @media (max-width: 320px) {
     body {
-      background-size: auto;
+      background-size: none;
     }
     #instruction {
       width: 22em;
