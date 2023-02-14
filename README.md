@@ -78,8 +78,15 @@ Here is a very popular game called memory game. It's a fun game for both adults 
     - No errors were found when passing through the official Jshint validator.
 
 
-# Deployment
-    
+# Deployment:
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, I navigated to the Settings tab.
+    - From the source section drop-down menu, I selected Pages.
+    - Afrerwords I seleted main.
+
+The live link can be found here - https://mariaarnesson.github.io/project_memory/
+
+
 
 # Technologies Used
 ## Languages Used
