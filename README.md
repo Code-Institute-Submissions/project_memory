@@ -1,5 +1,5 @@
 # Memory Game
-Here is a very popular game called memory game. It's a fun game for both adults and children. Great exercise for memory and concentration.It is a great entertainment for people of all ages, which is not able to get bored and can make the time more pleasant. 
+Here is a very popular game called memory game. It's a fun game for both adults and children. Great exercise for memory and concentration and can make the time more pleasant. 
 
 [View the live project here](https://mariaarnesson.github.io/project_memory/)
 
