@@ -1,6 +1,6 @@
 const moves = document.getElementById("number_of_moves");
 const timeValue = document.getElementById("gameTime");
-const startButton = document.getElementById("start");
+
 const stopButton = document.getElementById("stop");
 const gameContainer = document.querySelector(".game-container");
 const result = document.getElementById("result");
@@ -129,6 +129,7 @@ function matrixGenerator(cardValues, size = 4) {
 
 
 
+const startButton = document.getElementById("start");
 
 startButton.addEventListener("click", function() {
   numberOfMoves = 0;
@@ -143,19 +144,13 @@ startButton.addEventListener("click", function() {
   
   moves.innerHTML = `<span>Moves:</span> ${numberOfMoves}`;
   initializer();
-}
-);
-
-
-stopButton.addEventListener(
-  "click",
-  (stopGame = () => {
+});
+stopButton.addEventListener("click", function stopGame() {
     controls.classList.remove("hide");
     stopButton.classList.add("hide");
     startButton.classList.remove("hide");
     clearInterval(interval);
-  })
-);
+  });
 
 
 function initializer() {
