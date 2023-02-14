@@ -93,8 +93,18 @@ The live link can be found here - https://mariaarnesson.github.io/project_memory
 - [HTML](https://sv.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [Javascript](https://sv.wikipedia.org/wiki/Javascript)
+
+
+
 # Credits
 
-- (https://www.youtube.com/watch?v=dqqxkrKhfS4&t=2s)
-- (https://color.adobe.com/sv/create/image)
+## Content:
+ - [Memory game JavaScript](https://www.youtube.com/watch?v=dqqxkrKhfS4&t=2s) this tutorial was followed and some JavaScript code was taken and adapted to my game.
+ - [Adobe color](https://color.adobe.com/sv/create/image) this page was used to explain what colors I used to designe my game.
+ - [Memory game](https://www.codingnepalweb.com/build-memory-card-game-html-javascript/) this page was used and a code which makes a animation to shake cards was taken.
+ - [w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_setinterval3) My codes were based on information from that site
+ 
+ ## Media:
+ - [Freepik](https://www.freepik.com/search?format=search&query=memory%20game%20logo) All the pictures in my project were downloaded from this site
+
 
