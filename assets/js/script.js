@@ -130,7 +130,8 @@ function matrixGenerator(cardValues, size = 4) {
 
 
 
-startButton.addEventListener("click", () => {{
+startButton.addEventListener(
+  "click", () => {{
   movesCount = 0;
   seconds = 0;
   minutes = 0;
