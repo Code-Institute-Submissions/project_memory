@@ -19,8 +19,21 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 - The user should receive a message when all cards have been matched and how many moves have been made at the end of the game.
 - The user should be able to play again after finishing the game by pressing: "Play Game"
 
-![home_page](assets/images/home_page.png)
-![game_instructions](assets/images/game_instruction.png)
+## The Memory Game Logo:
+
+
+- When we open the page the first thing we see is the Memory Games logo as well as options to start the game or read the game 
+  instructions:
+
+
+![home_page](assets/images/homepage1.png)
+![home_page2](assets/images/homepage2.png)
+
+- The Game Area:
+
+
+
+
 ![game_page](assets/images/game_page.png)
 ![game_over](assets/images/Game_over.png)
 
