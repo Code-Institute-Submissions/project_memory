@@ -196,16 +196,23 @@ img {
       width: 22em;
     }
     .card-container {
-      width: 4.25em;
-      height: 4.25em;
-      margin: 4px;
+      width: 33px;
+      height: 38px;
+      margin-left: -34px;
+    }
+    img {
+      width: 33px;
+      height: 38px;
+      margin-left: -34px;
+      border-radius: 17px;
     }
     button {
       padding: 1em 1.5em;
     }
     .wrapper {
-      width: 21.87em;
-      height: 26em;
+      padding-top: 11px;
+      width: 9.87em;
+      height: 19em;
     }
     .controls-container {
       width: 21.87em;
@@ -216,6 +223,10 @@ img {
       margin: 28px;
       margin-left: -1em;
     }
+    #stop {
+      margin-left: 38px;
+    }
+  
   }
   @media (max-width: 950px) {
     body {
@@ -257,11 +268,14 @@ img {
       margin: -3%;
       width: 112%;
       height: 118%;
-      background-image: url(../images/background.jpg);
+      background-image: url(../images/2111.w015.n001.604B.p15.604.jpg);
     }
     button {
       margin: 28px;
       margin-left: -1em;
+    }
+    #stop {
+      font-size: 9px;
     }
   }
   @media (min-width: 1024px) {
