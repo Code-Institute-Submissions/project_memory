@@ -145,6 +145,7 @@ startButton.addEventListener("click", function() {
   moves.innerHTML = `<span>Moves:</span> ${numberOfMoves}`;
   initializer();
 });
+
 stopButton.addEventListener("click", function stopGame() {
     controls.classList.remove("hide");
     stopButton.classList.add("hide");
