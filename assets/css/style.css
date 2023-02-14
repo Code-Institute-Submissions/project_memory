@@ -218,29 +218,44 @@ img {
   @media (max-width: 950px) {
     body {
       margin: 7px;
-      background-size: auto;
+      background-size: none;
     }
     h1 {
-      font-size: 5em;
+      font-size: 3em;
     }
     .card-container {
-      width: 4.25em;
-      height: 4.25em;
-      margin: 4px;
+      width: 3.25em;
+      height: 3.25em;
+      margin: 0px;
+    }
+    img {
+      width: 3.25em;
+      height: 3.25em;
     }
     button {
       padding: 1em 1.5em;
     }
     .wrapper {
-      width: 21.87em;
-      height: 26em;
+      width: 14.87em;
+      height: 23em;
+      top: 61%;
+    }
+    #instruction {
+      width: 24em;
+      padding: 43px 43px;
+      text-align: center;
+      background-color: rgb(212 212 232 / 59%);
+      border: solid 1px #2f180c;
+      margin-top: 20px;
+      height: 20em;
+      border-radius: 7em;
+      display: none;
     }
     .controls-container {
-      border-radius: 20px;
-      margin: 119px;
-      width: 27.87em;
-      height: 35em;
-      background-image: url(https://img.freepik.com/free-vector/gradient-purple-hexagonal-background_23-2148965956.jpg?w=1060&t=st=1676278376~exp=1676278976~hmac=1063039a90e64064622fd7d18c8286b1f950d7130b9e3df78651bcc39ee337e9);
+      margin: -3%;
+      width: 112%;
+      height: 118%;
+      background-image: url(../images/background.jpg);
     }
     button {
       margin: 28px;
