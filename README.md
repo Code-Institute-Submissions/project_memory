@@ -46,9 +46,9 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
 ## Features Left to Implement
 
--
--
--
+ - I would like to add a sound animation to the game so that the sound effects can be played every time a card flip is clicked.
+ - I would like to add a time in which the user has to fit in order to finish the game quickly.
+ - I would like that the user has access to difficulty levels.
 
 # Design
 
@@ -93,11 +93,12 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
 # Deployment:
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-    - In the GitHub repository, I navigated to the Settings tab.
-    - From the source section drop-down menu, I selected Pages.
-    - Afrerwords I seleted main.
-
-The live link can be found here - https://mariaarnesson.github.io/project_memory/
+    - In the GitHub repository, navigated to the Settings tab.
+    - From the tab in the left hand side sidebar, select Pages.
+    - Afrerword select main under branch. 
+    - Click the save button.
+    - The page had updated. 
+    - The live link can be found here - https://mariaarnesson.github.io/project_memory/
 
 
 
