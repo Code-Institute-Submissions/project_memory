@@ -72,10 +72,23 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
 - HTML
     - No errors were returned when passing through the officialW3C validator.
+    ![validator_html](assets/images/validator_html.png)
 - CSS
     - No errors were found when passing through the official (Jigsaw) validator.
+    ![validator_css](assets/images/validator_css.png)
 - JavaScript 
     - No errors were found when passing through the official Jshint validator.
+    ![validator_js](assets/images/validator_js.png)
+
+## Lighthouse Testing
+
+### Lighthouse Mobile:
+
+    ![lighthouse_mobile](assets/images/lighthouse_mobile.png)
+
+### Lighthouse Desktop: 
+
+    ![lighthouse_desktop](assets/images/lighthouse.png)
 
 
 # Deployment:
