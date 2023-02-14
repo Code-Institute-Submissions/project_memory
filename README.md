@@ -1,17 +1,14 @@
 # Memory Game
-Here is a very popular game called memory game. It's a fun game for both adults and children. Great exercise for memory and concentration.
+Here is a very popular game called memory game. It's a fun game for both adults and children. Great exercise for memory and concentration.It is a great entertainment for people of all ages, which is not able to get bored and can make the time more pleasant. 
 
-[View the live project here]
+[View the live project here](https://mariaarnesson.github.io/project_memory/)
 
 
 ![responsive](assets/images/responsive.png)
-![home_page](assets/images/home_page.png)
-![game_instructions](assets/images/game_instruction.png)
-![game_page](assets/images/game_page.png)
-![game_over](assets/images/Game_over.png)
 
-# User Experience 
-## User stories - as a user I want to be able to :
+# Features
+## User Experience 
+### User stories:
 
 - The user should be able to read the instructions of the game by reading the instructions on the homepage.
 - The user should be able to see all 16 double-sided cards random selected.
@@ -22,6 +19,10 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 - The user should receive a message when all cards have been matched and how many moves have been made at the end of the game.
 - The user should be able to play again after finishing the game by pressing: "Play Game"
 
+![home_page](assets/images/home_page.png)
+![game_instructions](assets/images/game_instruction.png)
+![game_page](assets/images/game_page.png)
+![game_over](assets/images/Game_over.png)
 
 # Design
 

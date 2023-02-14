@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- font awesome and google fonts -->
-    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
-    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker" >
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- font awesome and google fonts -->
+<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="assets/js/script.js"></script>
+<script src="https://kit.fontawesome.com/142db3e41a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+   
     
-    <title>Memory Game</title>
-    <body>
-        <div class="wrapper">
-            <div class="stats-container">
-                <div id="number_of_moves"></div>
-                <div id="gameTime"></div>
-                <button id="stop" class="hide"> Stop Game </button>
-            </div>
-            <div class="game-container"></div>
+<title>Memory Game</title>
+<body>
+    <div class="wrapper">
+        <div class="stats-container">
+            <div id="number_of_moves"></div>
+            <div id="gameTime"></div>
+            <button id="stop" class="hide"> Stop Game </button>
         </div>
-        <div class="controls-container">
-            <h1 id="result">Memory Game</h1>
+        <div class="game-container"></div>
+    </div>
+    <div class="controls-container">
+        <h1 id="result">Memory Game</h1>
+        <br>
+        <button onclick="gameInstruction()">Game Instruction</button>
+        <div id="instruction">
+            <h2>Game Instruction:</h2>
             <br>
-            <button onclick="gameInstruction()">Game Instruction</button>
-            <div id="instruction">
-                <h2>Game Instruction:</h2>
-                <br>
-                <p>Test your memory with this memory game! You start 
-                    the game by choosing a card and finding another identical one. 
-                    You need to find all pairs. When you find all pairs, you have 
-                    completed this game.
-                </p>
-            </div>
-            <button id="start"> Play Game <i class="fa-solid fa-play"></i></button>
+            <p>Test your memory with this memory game! You start 
+                the game by choosing a card and finding another identical one. 
+                You need to find all pairs. When you find all pairs, you have 
+                completed this game.
+            </p>
         </div>
-    </body>
-
-
-
-    <script src="assets/js/script.js"></script>
-    
-    <script src="https://kit.fontawesome.com/142db3e41a.js" crossorigin="anonymous"></script>
+        <button id="start"> Play Game <i class="fa-solid fa-play"></i></button>
+    </div>
 </body>
-
 </html>
