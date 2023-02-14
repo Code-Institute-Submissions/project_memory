@@ -36,16 +36,11 @@ Here is a very popular game called memory game. It's a fun game for both adults 
          ![game_area](assets/images/game_area.png)    
 
 
-         
+
     - This is what all pairs of cards look like:
 ![game_page](assets/images/game_page.png)
 
-
-
-
-
-
-
+    - The final message looks like this:
 ![game_over](assets/images/Game_over.png)
 
 # Design
