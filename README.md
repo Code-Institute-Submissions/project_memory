@@ -43,20 +43,43 @@ Here is a very popular game called memory game. It's a fun game for both adults 
     - The final message looks like this:
 ![game_over](assets/images/Game_over.png)
 
+
+## Features Left to Implement
+
+-
+-
+-
+
 # Design
 
 ## Wireframe:
 
 ![wireframe_home](assets/images/wireframe_home_page.png)
 ![wireframe_instruction](assets/images/wireframe_instruction.png)
+![wireframes_memory_game](assets/images/wireframe_memory_game.png)
 ![wireframes_ipad](assets/images/wireframe_ipad.png)
 ![wireframe_iphone](assets/images/wireframe_iphone.png)
-![wireframes_memory_game](assets/images/wireframe_memory_game.png)
 
-## Colour Scheme
+
+## Colour Adobe
 
 ![colors_home_page](assets/images/colors_home_psge.png)
 ![colors_message_page](assets/images/colors_massage_page.png)
+
+# Testing
+
+## Validator Testing
+
+- HTML
+    - No errors were returned when passing through the officialW3C validator.
+- CSS
+    - No errors were found when passing through the official (Jigsaw) validator.
+- JavaScript 
+    - No errors were found when passing through the official Jshint validator.
+
+
+# Deployment
+    
 
 # Technologies Used
 ## Languages Used
@@ -66,4 +89,5 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 # Credits
 
 - (https://www.youtube.com/watch?v=dqqxkrKhfS4&t=2s)
+- (https://color.adobe.com/sv/create/image)
 
