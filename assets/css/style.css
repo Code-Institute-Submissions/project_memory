@@ -171,6 +171,19 @@ img {
     font-size: 1.8em;
     margin: 0.6em 0 1em 0;
   }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
   @media (max-width: 280px) {
     body {
       margin: 31px;
