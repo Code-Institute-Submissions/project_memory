@@ -150,7 +150,7 @@ img {
     float: left;
     font-size: 1.1em;
     display: block;
-    margin: -3.9em auto 0 auto;
+    margin: 0.1em auto 3em auto;
     background-color: #0c0c2f;
     color: #ffff;
   }
