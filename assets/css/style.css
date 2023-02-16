@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -203,7 +205,7 @@ img {
   }
   @media (max-width: 320px) {
     body {
-      background-size: none;
+      background-size: 0;
     }
     #instruction {
       width: 22em;
@@ -244,7 +246,7 @@ img {
   @media (max-width: 950px) {
     body {
       margin: 7px;
-      background-size: none;
+      background-size: 0;
     }
     h1 {
       font-size: 3em;
