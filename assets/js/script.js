@@ -1,15 +1,20 @@
 const moves = document.getElementById("number_of_moves");
 const timeValue = document.getElementById("gameTime");
-
 const stopButton = document.getElementById("stop");
 const gameContainer = document.querySelector(".game-container");
 const result = document.getElementById("result");
 const controls = document.querySelector(".controls-container");
+const wrapper = document.querySelector(".wrapper");
 
 let cards;
 let interval;
 let firstCard = false;
 let secondCard = false;
+
+function changeBackgroundYellow() {
+  wrapper.style.backgroundColor = "##1a384f";
+  document.body.style.backgroundColor = "#0c0c2f";
+}
 
 function gameInstruction() {
   var x = document.getElementById("instruction");

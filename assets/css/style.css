@@ -40,6 +40,9 @@ img {
   border-radius: 7em;
   display: none;
 }
+.score-board {
+  display: inline-block;
+}
 .score-board > button {
   display: inline-block;
   margin-inline: auto;
