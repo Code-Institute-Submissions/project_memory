@@ -39,7 +39,35 @@ img {
   height: 22em;
   border-radius: 7em;
   display: none;
-  
+}
+.score-board > button {
+  display: inline-block;
+  margin-inline: auto;
+}
+.color-yellow {
+  border-radius: 50%;
+  background-color: #e5f720;
+  margin-left: 150px;
+}
+.color-yellow {
+  border-radius: 50%;
+  background-color: #e5f720;
+  margin-left: 150px;
+}
+.color-blue {
+  border-radius: 50%;
+  background-color: #1a384f;
+  margin-left: 0px;
+}
+.color-grey {
+  border-radius: 50%;
+  background-color:rgb(41, 42, 52);
+  margin-left: 150px;
+}
+.color-white {
+  border-radius: 50%;
+  background-color: snow;
+  margin-left: 0px;
 }
 .game_instruction {
     float: left;
