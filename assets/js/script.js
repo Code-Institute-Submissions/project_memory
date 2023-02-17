@@ -12,9 +12,25 @@ let firstCard = false;
 let secondCard = false;
 
 function changeBackgroundYellow() {
-  wrapper.style.backgroundColor = "##1a384f";
+  wrapper.style.backgroundColor = "yellow";
+  document.body.style.backgroundColor = "#253431";
+}
+
+function changeBackgroundBlue() {
+  wrapper.style.backgroundColor = "#1a384f";
   document.body.style.backgroundColor = "#0c0c2f";
 }
+
+function changeBackgroundGrey() {
+  wrapper.style.backgroundColor = "rgb(41, 42, 52)";
+  document.body.style.backgroundColor = "#0c0c2f";
+}
+
+function changeBackgroundWhite() {
+  wrapper.style.backgroundColor = "snow";
+  document.body.style.backgroundColor = "rgb(37, 52, 49)";
+}
+
 
 function gameInstruction() {
   var x = document.getElementById("instruction");
