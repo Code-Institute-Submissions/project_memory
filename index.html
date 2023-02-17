@@ -16,6 +16,12 @@
     <title>Memory Game</title>
 <body>
     <div class="wrapper">
+        <div class="score-board">
+            <button class="color-yellow" onclick="changeBackgroundYellow()"></button>
+            <button class="color-blue" onclick="changeBackgroundBlue()"></button>
+            <button class="color-grey" onclick="changeBackgroundGrey()"></button>
+            <button class="color-white" onclick="changeBackgroundWhite()"></button>
+        </div>
         <div class="stats-container">
             <div id="number_of_moves"></div>
             <div id="gameTime"></div>
@@ -37,10 +43,7 @@
             </p>
         </div>
         <button id="start"> Play Game <i class="fa-solid fa-play"></i></button>
-    </div>
-<footer>
-    <h3>Memory Game <i class="fa-regular fa-cards-blank"></i></h3>
-</footer>    
+    </div>  
     <script src="assets/js/script.js"></script>
 </body>
 

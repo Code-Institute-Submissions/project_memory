@@ -108,9 +108,9 @@ function matrixGenerator(cardValues, size = 4) {
             firstCard = false;
             winCount += 1;
             if (winCount == Math.floor(cardValues.length / 2)) {
-              result.innerHTML = `<div><p>Well Done!!!</p>
-            <p> Your moves: ${numberOfMoves}</p></div>`;
-              stopGame();
+              result.innerHTML = `<div><h3>Well Done!!!</h3>
+            <h5> Your moves: ${numberOfMoves}</h5></div>`;
+            stopGame();
             }
           } else {
             let [tempFirst, tempSecond] = [firstCard, secondCard];
@@ -146,7 +146,7 @@ startButton.addEventListener("click", function() {
   initializer();
 });
 
-stopButton.addEventListener("click", function stopGame() {
+stopButton.addEventListener("click", function() {
     controls.classList.remove("hide");
     stopButton.classList.add("hide");
     startButton.classList.remove("hide");
