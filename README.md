@@ -12,6 +12,7 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
 - The user should be able to read the instructions of the game by reading the instructions on the homepage.
 - The user should be able to see all 16 double-sided cards random selected.
+- The user should be able to change the background color.
 - The user should be able to see the tab by clicking on it to match it with another card.
 - The user should activate the timer by clicking on button: "Game Start".
 - The user should activate the move counting by pressing on the first two cards.
@@ -39,6 +40,10 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
     - This is what all pairs of cards look like:
 ![game_page](assets/images/game_page.png)
+    - This is what the different background colors of the game look like:
+![yellow_background](assets/images/yellow_background.png)
+![blue_background](assets/images/blue_background.png)
+![gray_background](assets/images/gray_background.png)    
 
     - The final message looks like this:
 ![game_over](assets/images/Game_over.png)
@@ -65,6 +70,9 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
 ![colors_home_page](assets/images/colors_home_psge.png)
 ![colors_message_page](assets/images/colors_massage_page.png)
+![colors_yellow_background](assets/images/colors_yellow_background.png)
+![colors_blue_background](assets/images/colors_blue_background.png)
+![colors_grey_background](assets/images/colors_gray_background.png)
 
 # Testing
 
@@ -90,6 +98,11 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
     ![lighthouse_desktop](assets/images/lighthouse.png)
 
+# Problems Encountered:
+
+- Because I added <script src="assets/js/script.js"></script> in the <head> element on the html page, none of the functions wanted to work for me after the page was onload, so I had to move the script at the bottom of the body element.
+
+- I couldn't create a function changeBackground() because instead of writing const wrapper = document.getElementByClassName("wrapper) I should have used: const wrapper = document.querySelector(".wrapper"); After typing it correctly everything worked as it should.
 
 # Deployment:
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
