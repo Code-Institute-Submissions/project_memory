@@ -31,7 +31,7 @@ function changeBackgroundGrey() {
 
 function changeBackgroundWhite() {
   wrapper.style.backgroundColor = "snow";
-  document.body.style.backgroundColor = "rgb(37, 52, 49)";
+  document.body.style.backgroundColor = "rgb(6, 10, 50)";
   document.body.style.backgroundImage = "url('https://img.freepik.com/free-vector/air-balloons-flying-night-starry-sky-with-full-moon-clouds-lake-with-rocks-conifers-trees-aerial-flight-travel-midnight-scenery-landscape-cartoon-vector-illustration-background_107791-8369.jpg?w=1380&t=st=1676038931~exp=1676039531~hmac=5fb692cc6054ff94e2e3bdb88ea8a3a362c1e7c99c01f67176b364d84c0c381f')";
 }
 
