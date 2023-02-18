@@ -11,6 +11,7 @@ let interval;
 let firstCard = false;
 let secondCard = false;
 
+// Background's colors
 function changeBackgroundYellow() {
   wrapper.style.backgroundColor = "yellow";
   document.body.style.backgroundColor = "#253431";
@@ -35,7 +36,7 @@ function changeBackgroundWhite() {
   document.body.style.backgroundImage = "url('https://img.freepik.com/free-vector/air-balloons-flying-night-starry-sky-with-full-moon-clouds-lake-with-rocks-conifers-trees-aerial-flight-travel-midnight-scenery-landscape-cartoon-vector-illustration-background_107791-8369.jpg?w=1380&t=st=1676038931~exp=1676039531~hmac=5fb692cc6054ff94e2e3bdb88ea8a3a362c1e7c99c01f67176b364d84c0c381f')";
 }
 
-
+// Instruction
 function gameInstruction() {
   var x = document.getElementById("instruction");
   if (x.style.display === "none") {
@@ -45,6 +46,7 @@ function gameInstruction() {
   }
 }
 
+// Pictures to the cards
 const items = [
   { name: "beauty", image: "assets/images/beauty.jpg" },
   { name: "be_happy", image: "assets/images/be_happy.jpg" },
@@ -64,7 +66,7 @@ let seconds = 0,
 let numberOfMoves = 0,
   winCount = 0;
 
-
+// Install time
 function timeGenerator() {
   seconds += 1;
   if (seconds >= 60) {
@@ -77,7 +79,7 @@ function timeGenerator() {
   timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
 };
 
-
+// Moves
 function numberMoves() {
   numberOfMoves += 1;
   moves.innerHTML = `<span>Moves:</span>${numberOfMoves}`;
@@ -133,7 +135,7 @@ function matrixGenerator(cardValues, size = 4) {
             firstCard = false;
             winCount += 1;
             if (winCount == Math.floor(cardValues.length / 2)) {
-              result.innerHTML = `<h2>Well Done!!!</h2>
+              result.innerHTML = `<h3>Well Done!!!</h3>
             <h4> Your moves: ${numberOfMoves}</h4>`;
             stopGame();
             }
@@ -153,11 +155,11 @@ function matrixGenerator(cardValues, size = 4) {
 };
 
 
-
+// start game
 const startButton = document.getElementById("start");
 
 startButton.addEventListener("click", function() {
-  numberOfMoves = 0;
+  movesCount = 0;
   seconds = 0;
   minutes = 0;
   
@@ -167,16 +169,20 @@ startButton.addEventListener("click", function() {
  
   interval = setInterval(timeGenerator, 1000);
   
-  moves.innerHTML = `<span>Moves:</span> ${numberOfMoves}`;
+  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   initializer();
 });
 
-stopButton.addEventListener("click", function() {
+// Stop Game
+stopButton.addEventListener(
+  "click",
+  (stopGame = () => {
     controls.classList.remove("hide");
     stopButton.classList.add("hide");
     startButton.classList.remove("hide");
     clearInterval(interval);
-  });
+  })
+  );
 
 
 function initializer() {
