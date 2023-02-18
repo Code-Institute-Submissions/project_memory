@@ -92,11 +92,11 @@ Here is a very popular game called memory game. It's a fun game for both adults 
 
 ### Lighthouse Mobile:
 
-    ![lighthouse_mobile](assets/images/lighthouse_mobile.png)
+![lighthouse_mobile](assets/images/lighthouse_mobile.png)
 
 ### Lighthouse Desktop: 
 
-    ![lighthouse_desktop](assets/images/lighthouse.png)
+![lighthouse_desktop](assets/images/lighthouse.png)
 
 # Problems Encountered:
 

@@ -133,8 +133,8 @@ function matrixGenerator(cardValues, size = 4) {
             firstCard = false;
             winCount += 1;
             if (winCount == Math.floor(cardValues.length / 2)) {
-              result.innerHTML = `<div><h3>Well Done!!!</h3>
-            <h5> Your moves: ${numberOfMoves}</h5></div>`;
+              result.innerHTML = `<h2>Well Done!!!</h2>
+            <h4> Your moves: ${numberOfMoves}</h4>`;
             stopGame();
             }
           } else {
