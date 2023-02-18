@@ -21,6 +21,7 @@ h1 {
 h2 {
     color: rgb(121, 101, 77);
     font-family: Caveat, sans-serif;
+    font-weight: 700;
     text-align: center;
     font-size: 30px;
 }
