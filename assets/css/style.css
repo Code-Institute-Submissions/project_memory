@@ -262,9 +262,10 @@ img {
       height: 19em;
     }
     .controls-container {
-      width: 21.87em;
-      height: 26em;
-      background-image: url(https://img.freepik.com/free-vector/gradient-purple-hexagonal-background_23-2148965956.jpg?w=1060&t=st=1676278376~exp=1676278976~hmac=1063039a90e64064622fd7d18c8286b1f950d7130b9e3df78651bcc39ee337e9);
+      margin: -3%;
+      width: 112%;
+      height: 118%;
+      background-image: url(../images/background.jpg);
     }
     button {
       margin: 28px;
@@ -316,7 +317,7 @@ img {
       margin: -3%;
       width: 112%;
       height: 118%;
-      background-image: url(../images/2111.w015.n001.604B.p15.604.jpg);
+      background-image: url(../images/background.jpg);
     }
     button {
       margin: 28px;
